@@ -30,14 +30,16 @@ public class CompositeTest {
         for (int i = 0; i < num ; i++) {
             System.out.print("--");
         }
-        if(root instanceof MyFile) {
-            root.display();
-        } else {
+//        if(root instanceof MyFile) {
+//            root.display();
+//        } else {
             root.display();
             List<IFile> children = root.getChildren();
-            for (IFile child:children) {
-                treeDisplay(child, num + 1);
+            if(children != null){
+                for (IFile child : children) {
+                    treeDisplay(child, num + 1);
+                }
             }
         }
-    }
+//    }
 }
