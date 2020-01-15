@@ -1,6 +1,4 @@
-package com.dynamic.proxy;
-
-import java.lang.reflect.Proxy;
+package com.dynamic.proxy.calculator;
 
 public class ProxyTest {
     public static void main(String[] args) {
