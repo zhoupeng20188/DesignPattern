@@ -1,4 +1,4 @@
-package com.dynamic.proxy.human;
+package com.dynamic.proxy.jdk.human;
 
 /**
  * 静态代理，必须事先知道要代理的类，而且每个类要代理就必须新建一个代理类

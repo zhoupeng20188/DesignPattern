@@ -1,4 +1,4 @@
-package com.dynamic.proxy.calculator;
+package com.dynamic.proxy.jdk.calculator;
 
 public class ProxyTest {
     public static void main(String[] args) {

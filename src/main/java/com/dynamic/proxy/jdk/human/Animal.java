@@ -1,4 +1,4 @@
-package com.dynamic.proxy.human;
+package com.dynamic.proxy.jdk.human;
 
 /**
  * @Author zp
