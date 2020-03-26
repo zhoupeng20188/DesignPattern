@@ -27,11 +27,12 @@ public class CglibTest {
              * @return
              * @throws Throwable
              */
+            @Override
             public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
                 System.out.println("记录日志");
 //                Object invoke = method.invoke(o, objects);
                 // 不能用上面的写法，会无限报错，上面的写法需要持有一个Tiger对象
-                // 用下面的写法即可
+                // 用下面的写法即可，默认会拦截所有方法
                 Object invoke = methodProxy.invokeSuper(o,objects);
                 return invoke;
             }
