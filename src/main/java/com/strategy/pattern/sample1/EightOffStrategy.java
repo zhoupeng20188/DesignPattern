@@ -1,4 +1,4 @@
-package com.strategy.pattern;
+package com.strategy.pattern.sample1;
 
 public class EightOffStrategy implements Strategy {
     public boolean support(Integer i) {

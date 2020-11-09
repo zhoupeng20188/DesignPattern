@@ -1,4 +1,4 @@
-package com.strategy.pattern;
+package com.strategy.pattern.sample1;
 
 public class NineOffStrategy implements Strategy {
     public boolean support(Integer i) {

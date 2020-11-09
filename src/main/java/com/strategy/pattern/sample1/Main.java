@@ -1,6 +1,5 @@
-package com.strategy.pattern;
+package com.strategy.pattern.sample1;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

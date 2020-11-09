@@ -1,4 +1,4 @@
-package com.strategy.pattern;
+package com.strategy.pattern.sample1;
 
 public class ShoppingMall {
     Strategy strategy;
